@@ -1,0 +1,31 @@
+body {
+	font-size: 12px;
+}
+#page-wrapper {
+		margin-top: 50px
+	}
+@media (max-width: 765px) {
+	#page-wrapper {
+		margin-top: 0px
+	}
+	#menu-nav {
+		position: relative;
+	}
+	.navbar-fixed-top .navbar-collapse {
+    	max-height: 401px;
+	}
+	.navbar-top-links .dropdown-user {
+    	right: -100px;    	
+	}
+}
+
+.btn-menu{
+	margin-top: 15px;
+}
+.menu-horizontal {
+	border-right: 10px solid #ddd;
+	/*display: block;*/
+	left: -10px;
+	font-size: 14px
+	/*line-height: 2.428571;*/
+}
