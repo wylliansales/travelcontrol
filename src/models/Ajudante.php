@@ -32,9 +32,6 @@ class Ajudante extends Pessoa
 
 	public function getCamposObrigatorios()
 	{
-		return array('data_admissao', 'pessoa_id');
-		
+		return array('data_admissao', 'pessoa_id');		
 	}
-
-
 }
