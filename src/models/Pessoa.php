@@ -37,8 +37,7 @@ class Pessoa extends Model
 				'numero'		=> array('rotulo' => 'numero'),
 				'cidade'		=> array('rotulo' => 'cidade'),
 				'uf'			=> array('rotulo' => 'uf'),
-				'data_nasc'	 	=> array('rotulo' => 'data_nasc'),
-				'data_cadastro'	=> array('rotulo' => 'data_cadastro')
+				'data_nasc'	 	=> array('rotulo' => 'data_nasc')				
 			);
 	}	
 
